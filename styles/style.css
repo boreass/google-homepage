@@ -17,9 +17,7 @@ header ul {
 header li {
     display: inline-block;
 }
-header img {
-    display: inline-block !important;
-}
+
 header a {
     color: hsl(0, 0%, 0%);
 }
@@ -56,8 +54,8 @@ footer ul {
 }
 
 #down {
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 30px;
 }
 
@@ -72,6 +70,14 @@ footer ul {
 
 footer li {
     display: inline-block;
+}
+
+.izq {
+    margin-right: 20px;
+}
+
+.der {
+    margin-left: 20px;
 }
 
 main {
@@ -90,14 +96,17 @@ main input {
     margin: 0 auto;
     margin-bottom: 30px;
     width: 500px;
-    height: 45px;;
-    border-radius: 2px;
-    text-shadow: none;
+    height: 45px;
+    border-radius: 3px;
+    border: none;
+    border: 1px gray solid;
+    box-shadow: 0 1px 0 0 gray;
 }
 
 main button {
     margin-bottom: 20px;
     height: 35px;
-    border-radius: 0;
     color: black;
+    border: none;
+    box-shadow: none;
 }
