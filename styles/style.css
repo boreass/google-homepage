@@ -1,6 +1,6 @@
 body {
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 header {
@@ -16,6 +16,7 @@ header ul {
 
 header li {
     display: inline-block;
+    margin: 10px 5px;
 }
 
 header a {
@@ -87,7 +88,7 @@ main {
     top: 200px;
 }
 
-img {
+main img {
     margin-bottom: 20px;
 }
 
@@ -104,9 +105,34 @@ main input {
 }
 
 main button {
-    margin-bottom: 20px;
     height: 35px;
-    color: black;
+    color: hsla(0, 0%, 0%, 0.8);
     border: none;
     box-shadow: none;
+    opacity: 0.8;
+    font-weight: bold;
+    border-radius: 2px;
+    margin: 0 5px 20px 5px;
+}
+
+main button:hover {
+    color: hsla(0, 0%, 0%);
+    opacity: 1;
+}
+
+footer a {
+    color: gray;
+}
+
+#square {
+    margin-top: -20px;
+    margin
+}
+
+#iniciar {
+    background-color: blue;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
 }
