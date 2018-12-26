@@ -45,7 +45,7 @@ footer {
 
 footer ul {
     list-style: none;
-    border-top: 1px hsl(0, 0%, 68%) solid;
+    border-top: 1px solid #e4e4e4;
     margin: 0 auto;
     display: block;
     width: 100%;
@@ -55,6 +55,7 @@ footer ul {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
+    font-size: 15px;
 }
 
 #down {
@@ -99,12 +100,15 @@ main input {
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 500px;
-    height: 45px;
-    border-radius: 3px;
+    width: 584px;
+    height: 44px;
+    border-radius: 2px;
     border: none;
-    border: 1px gray solid;
-    box-shadow: 0 1px 0 0 gray;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+main input:hover {
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
 main button {
@@ -116,12 +120,17 @@ main button {
     font-weight: bold;
     border-radius: 2px;
     margin: 0 5px 20px 5px;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 0 16px;
+    background-color: hsl(0, 0%, 95%);
 }
 
 main button:hover {
-    color: hsl(0, 0%, 0%);
-    opacity: 1;
-    background-color: hsl(0, 0%, 90%);
+    color: hsl(0, 0%, 13%);
+    background-color: hsl(0, 0%, 97%);
+    border: 1px solid hsl(0, 0%, 78%);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 footer a {
@@ -129,14 +138,14 @@ footer a {
 }
 
 #square {
-    margin-top: -20px;
-    margin
+    vertical-align: middle;
 }
 
 #iniciar {
-    background-color: blue;
-    padding: 8px 10px;
-    color: white;
-    border-radius: 4px;
+    background-color: hsl(217, 89%, 61%);
+    padding: 7px 12px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 2px;
     font-weight: bold;
+    border: 1px solid hsl(217, 89%, 61%);
 }
